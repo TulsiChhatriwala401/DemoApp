@@ -1,0 +1,10 @@
+.block {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+  }
+  ion-modal {
+    --height: 250px;
+    background-color: transparent;
+    
+   }

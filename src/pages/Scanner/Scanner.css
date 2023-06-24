@@ -1,0 +1,28 @@
+ion-content.hideBg::part(background){
+    /* --background: transparent !important; */
+    display: none !important;
+    
+}
+
+body.hello{
+  opacity: 0;
+background: none;
+}
+
+.camera-container {
+    position: relative;
+  }
+  
+  .square-overlay {
+    background-color: transparent !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    padding-bottom: 70%;
+    border: 2px solid #FF0000;
+    border-radius: 10px;
+    pointer-events: none;
+  }
+  
